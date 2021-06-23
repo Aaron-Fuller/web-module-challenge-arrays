@@ -45,11 +45,12 @@ Use the copy function below to do the following:
     2. Return a copy of the received array  
 */
 
-function copy(/*your code here*/){
-    /*your code here*/
+function copy(originalFlavors){
+    originalFlavors = [...originalFlavors]
+    console.log(originalFlavors)
 }    
 
-
+copy(originalFlavors);
 
 
 
@@ -64,10 +65,11 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(/*your code here*/){
-   /*your code here*/
+function is31Flavors(originalFlavors){
+   if (originalFlavors.)
 }
 
+is31Flavors(originalFlavors)
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Corporate has come to you with an idea for a new flavor: Rainbow Sherbert! They think this will be a game changer. You need to modify the array to include this flavor. 
 
@@ -282,21 +284,21 @@ const regionalFlavors = [
 
 
 
-/* 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 */
-function foo(){
-    return 'bar';
-}
+// /* 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 */
+// function foo(){
+//     return 'bar';
+// }
 
-export default{
-    foo,
-    is31Flavors,
-    addFlavor,
-    removeLastFlavor,
-    getFlavorByIndex,
-    removeFlavorByName,
-    copy,
-    filterByWord,
-    getAverageWordLength,
-    getRandomFlavors
-}
+// export default{
+//     foo,
+//     is31Flavors,
+//     addFlavor,
+//     removeLastFlavor,
+//     getFlavorByIndex,
+//     removeFlavorByName,
+//     copy,
+//     filterByWord,
+//     getAverageWordLength,
+//     getRandomFlavors
+// }
 
